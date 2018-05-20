@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1082 127">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #737373;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Shape_width_button" data-name="Shape width button" class="cls-1" transform="translate(1 1)">
+    <rect class="cls-2" width="1080" height="125"/>
+    <rect class="cls-3" x="-0.5" y="-0.5" width="1081" height="126"/>
+  </g>
+</svg>

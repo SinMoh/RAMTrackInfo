@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 150">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c22034;
+      }
+    </style>
+  </defs>
+  <g id="Header_Path" data-name="Header Path" transform="translate(0 -72)">
+    <path id="Header_Path-2" data-name="Header Path" class="cls-1" d="M0,150H125.31C254.754,150,235.685,46.024,360.9,46.024H1080V0H0Z" transform="translate(0 72)"/>
+  </g>
+</svg>

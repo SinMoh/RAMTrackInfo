@@ -1,0 +1,30 @@
+<svg id="System_Bar" data-name="System Bar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8a2432;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        opacity: 0.9;
+      }
+
+      .cls-3 {
+        font-size: 40px;
+        font-family: Roboto-Medium, Roboto;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <rect id="rectangle" class="cls-1" width="1080" height="72"/>
+  <g id="Icons" transform="translate(725.409 -0.005)">
+    <path id="Wifi" class="cls-2" d="M26.412,43.019,52.824,10.3C51.924,9.4,41.719,1,26.412,1S.9,9.4,0,10.3L26.412,43.019Z" transform="translate(45.591 14.007)"/>
+    <path id="Signal" class="cls-2" d="M19.8,43.019H61.819V1Z" transform="translate(85.248 14.007)"/>
+    <path id="Battery" class="cls-2" d="M60.808,4V1h-9V4h-9V43.019H69.812V4Z" transform="translate(131.279 14.007)"/>
+    <text id="_12:30" data-name="12:30" class="cls-3" transform="translate(222.101 49.005)"><tspan x="0" y="0">12:30</tspan></text>
+  </g>
+</svg>

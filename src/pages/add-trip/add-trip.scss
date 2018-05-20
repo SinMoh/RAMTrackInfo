@@ -1,0 +1,43 @@
+page-add-trip {
+    .toolbar{
+        padding: 0px;
+    }
+    .background{
+        background-color: color($colors,light);
+    }
+    .Header_Path{
+        display: block;
+        width: 100%;
+      }
+    .BUTTON_Sidemenu{
+        background: none;
+        background-image: url("../../assets/imgs/ICON Sidemenu.svg");
+        width: 75px;
+        height: 65px;
+        margin-left: 70px;
+        margin-top: 43px;
+    }
+    .BUTTON_AddTrip{
+        display: block;
+        color: white;
+        background-color: color($colors,primary);
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: auto;
+        width: 65%;
+        border-radius: 50px;
+        padding-top: 3.5%;
+        padding-bottom: 3.5%;
+      }
+    p{
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .FooterPath{
+        background-image: url("../../assets/imgs/Footer Path.svg");
+        width: 100%;
+        height: 150px;
+    }
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 870 470">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8a2432"/>
+      <stop offset="1" stop-color="#8a2432" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect id="CARD_-_Gradient" data-name="CARD - Gradient" class="cls-1" width="870" height="470" rx="25"/>
+</svg>

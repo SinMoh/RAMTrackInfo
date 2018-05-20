@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #008b5f;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 40px;
+        font-family: CachetStd-Medium, Cachet Std;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <g id="ALERT_Good" data-name="ALERT Good" transform="translate(-110 400)">
+    <rect id="Alert_Shape" data-name="Alert Shape" class="cls-1" width="860" height="200" rx="50" transform="translate(110 -400)"/>
+    <text id="Un_lien_de_réinitialisation_de_mot_de_passe_vous_a_été_envoyé_par_mail." data-name="Un lien de réinitialisation de mot de passe
+vous a été envoyé par mail." class="cls-2" transform="translate(540 -314)"><tspan x="-373.18" y="0">Un lien de réinitialisation de mot de passe</tspan><tspan x="-241.88" y="56">vous a été envoyé par mail.</tspan></text>
+  </g>
+</svg>

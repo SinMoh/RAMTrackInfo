@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 64.286">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="ICON_Sidemenu" data-name="ICON Sidemenu" transform="translate(-70 -115)">
+    <path id="ICON_Sidemenu-2" data-name="ICON Sidemenu" class="cls-1" d="M69.857,0H5.143a5.143,5.143,0,0,0,0,10.286H69.857A5.143,5.143,0,1,0,69.857,0Zm0,27H5.143a5.143,5.143,0,0,0,0,10.286H69.857a5.143,5.143,0,1,0,0-10.286Zm0,27H5.143a5.143,5.143,0,1,0,0,10.286H69.857a5.143,5.143,0,1,0,0-10.286Z" transform="translate(70 115)"/>
+  </g>
+</svg>

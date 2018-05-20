@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 334 130">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #da300a;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 40px;
+        font-family: CachetStd-Book, Cachet Std;
+      }
+
+      .cls-4 {
+        filter: url(#Button_Shape);
+      }
+    </style>
+    <filter id="Button_Shape" x="0" y="0" width="334" height="130" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="BUTTON_Google" data-name="BUTTON Google" transform="translate(-553 -1532)">
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 553, 1532)">
+      <rect id="Button_Shape-2" data-name="Button Shape" class="cls-1" width="304" height="100" rx="50" transform="translate(10 10)"/>
+    </g>
+    <text id="Google" class="cls-2" transform="translate(759 1603.534)"><tspan x="-57.98" y="0">Google</tspan></text>
+    <path id="Google_Icon" data-name="Google Icon" class="cls-3" d="M25,20V30H39.141A15,15,0,1,1,25,10a14.775,14.775,0,0,1,9.719,3.625l6.563-7.547A24.764,24.764,0,0,0,25,0,25,25,0,1,0,50,25V20Z" transform="translate(603 1567)"/>
+  </g>
+</svg>

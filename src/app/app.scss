@@ -14,3 +14,40 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+*{
+  font-family: Museo;
+  color: color($colors,greyish);
+  font-size: 100%;
+  margin: Opx;
+  padding: 0px;
+  outline: none;
+}
+.Label{
+  display: block;
+  color: color($colors,primary);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1%;
+}
+.INPUTBox{
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.INPUTText{
+  background-color: white;
+  border: 1px solid color($colors,greyish);
+  border-radius: 10px;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+}
+.Footer_Path{
+  display: block;
+  width: 100%;
+}

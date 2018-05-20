@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 334 130">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #35589e;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 40px;
+        font-family: CachetStd-Book, Cachet Std;
+      }
+
+      .cls-4 {
+        filter: url(#Button_Shape);
+      }
+    </style>
+    <filter id="Button_Shape" x="0" y="0" width="334" height="130" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="BUTTON_Facebook" data-name="BUTTON Facebook" transform="translate(-207 -1532)">
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 207, 1532)">
+      <rect id="Button_Shape-2" data-name="Button Shape" class="cls-1" width="304" height="100" rx="50" transform="translate(10 10)"/>
+    </g>
+    <text id="Facebook" class="cls-2" transform="translate(390 1603.534)"><tspan x="-79.54" y="0">Facebook</tspan></text>
+    <path id="Facebook_Icon" data-name="Facebook Icon" class="cls-3" d="M22.137,24.957H15.3V50H4.957V24.957H0v-8.8H4.957V10.427C4.957,6.41,6.838,0,15.385,0h7.692V8.547H17.521A2.1,2.1,0,0,0,15.3,10.94v5.214h7.778Zm0,0" transform="translate(256 1567)"/>
+  </g>
+</svg>

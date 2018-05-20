@@ -1,14 +1,21 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
+<ion-header no-border>
+  
+  <img src="../assets/imgs/Header Openning.svg" class="Header_Opening">
+  <img src="../assets/imgs/LOGO RTI - Small white.svg" class="LogoSmallWhite">
+
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content class="background">
+  <div class="buttons">
+    <button class="BUTTON_SignUp">Créer un compte</button>
+    <button class="BUTTON_SignIn" (click)="NAVTO_AddTrip()">Connexion</button>
+  </div>
 </ion-content>
+
+<ion-footer no-border>
+
+  <div>
+  <img src="../assets/imgs/Footer Path.svg" class="Footer_Path">
+  </div>
+
+</ion-footer>
