@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { FlightInfoPage } from '../flight-info/flight-info';
 
 /**
  * Generated class for the AddTripPage page.
@@ -20,6 +21,10 @@ export class AddTripPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad AddTripPage');
+  }
+
+  NAVTO_FlightInfo() {
+    this.navCtrl.push(FlightInfoPage)
   }
 
 }
