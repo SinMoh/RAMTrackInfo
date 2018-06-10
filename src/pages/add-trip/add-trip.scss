@@ -6,8 +6,10 @@ page-add-trip {
         background-color: color($colors,light);
     }
     .Header_Path{
-        display: block;
+        display: flex;
         width: 100%;
+        position: absolute;
+        top: -0.3em;
       }
     .BUTTON_Sidemenu{
         background: none;

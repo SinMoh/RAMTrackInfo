@@ -1,4 +1,9 @@
 page-home {
+  .no-scroll{
+    overflow: hidden;
+    z-index: -999;
+  }
+
   .background{
     background-image: url("../../assets/imgs/background.png");
     background-size: cover;
@@ -19,41 +24,35 @@ page-home {
   .buttons {
     display: block;
     position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 65%;
-    left:40%;
+    margin: 1.2em;
+    bottom: 5em;
+    left: 14em;
   }
   .BUTTON_SignUp{
     display: block;
     color: color($colors,primary);
-    width: 45%;
+    font-weight: 300;
+    width: 15em;
     border: 1px solid color($colors,primary);
-    border-radius: 50px;
+    border-radius: 15em;
     text-align: center;
     text-transform: uppercase;
     background: none;
-    padding-top: 3.5%;
-    padding-bottom: 3.5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    font-weight: 300;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    margin: 1.2em;
   }
   .BUTTON_SignIn{
     display: block;
     color: white;
-    width: 45%;
+    width: 15em;
     background-color: color($colors,primary);
-    border-radius: 50px;
+    border-radius: 15em;
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
-    padding-top: 3.5%;
-    padding-bottom: 3.5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 5%;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    margin: 1.2em;
   }
 }
