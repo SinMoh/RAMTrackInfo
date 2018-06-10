@@ -15,17 +15,52 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
+@font-face {
+  font-family: 'Museo';
+  src: url('../assets/fonts/Museo100-Light.otf') format('opentype');
+  font-weight: 100;
+  font-style: lighter;
+}
+
+@font-face {
+  font-family: 'Museo';
+  src: url('../assets/fonts/Museo500-Bold.otf') format('opentype');
+  font-weight: 500;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Museo';
+  src: url('../assets/fonts/Museo700-Bolder.otf') format('opentype');
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Museo';
+  src: url('../assets/fonts/Museo900-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: bolder;
+}
+
+@font-face {
+  font-family: 'Museo';
+  src: url('../assets/fonts/Museo300-Regular.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
 *{
-  font-family: Museo;
-  font-size: 100%;
-  margin: Opx;
-  padding: 0px;
-  outline: none;
+  font-family: "Museo", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: O;
+  padding: 0;
 }
 .Label{
   display: block;
   color: color($colors,primary);
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 1%;
 }
@@ -39,6 +74,7 @@
 .INPUTText{
   background-color: white;
   border: 1px solid color($colors,greyish);
+  color: color($colors,greyish);
   border-radius: 10px;
   width: 100%;
   padding-left: 5%;

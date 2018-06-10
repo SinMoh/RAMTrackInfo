@@ -37,7 +37,6 @@ page-flight-info {
         margin: 0;
     }
     .CARD_Header{
-        font-weight: bold;
         margin: auto;
         width: 100%;
         color: color($colors,secondary);
@@ -49,6 +48,7 @@ page-flight-info {
         height: 40px;
     }
     .CARD_Header p{
+        font-weight: 500;
         position: relative;
         top:-10px;
     }
@@ -69,7 +69,7 @@ page-flight-info {
     }
     .CARD_Date{
         color: color($colors,secondary);
-        font-weight: bold;
+        font-weight: 500;
         margin-left: 5px;
     }
     .CARD_Flight_Status{

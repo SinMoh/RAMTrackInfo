@@ -9,7 +9,7 @@ import { FlightInfoPage } from '../pages/flight-info/flight-info';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = FlightInfoPage;
+  rootPage:any = HomePage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
