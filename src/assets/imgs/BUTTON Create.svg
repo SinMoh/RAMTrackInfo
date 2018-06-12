@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 130">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c22034;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 40px;
+        font-family: CachetStd-Bold, Cachet Std;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        filter: url(#Button_Shape);
+      }
+    </style>
+    <filter id="Button_Shape" x="0" y="0" width="680" height="130" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="BUTTON_Create" data-name="BUTTON Create" transform="translate(-207 -1470)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 207, 1470)">
+      <rect id="Button_Shape-2" data-name="Button Shape" class="cls-1" width="650" height="100" rx="50" transform="translate(10 10)"/>
+    </g>
+    <text id="CRÉER_UN_COMPTE" data-name="CRÉER UN COMPTE" class="cls-2" transform="translate(542 1544)"><tspan x="-173.78" y="0">CRÉER UN COMPTE</tspan></text>
+  </g>
+</svg>

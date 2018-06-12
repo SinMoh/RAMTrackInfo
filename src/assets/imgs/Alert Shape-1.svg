@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c22034;
+      }
+    </style>
+  </defs>
+  <rect id="Alert_Shape" data-name="Alert Shape" class="cls-1" width="860" height="200" rx="50"/>
+</svg>

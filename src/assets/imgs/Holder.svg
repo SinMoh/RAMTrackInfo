@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 979.9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ebebeb;
+      }
+    </style>
+  </defs>
+  <path id="Holder" class="cls-1" d="M0,149.5H180C366.1,149.5,338.7,0,518.7,0H1080V979.9H0Z"/>
+</svg>

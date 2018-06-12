@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #737373;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <line id="Form_Line" data-name="Form Line" class="cls-1" x2="650" transform="translate(0 1)"/>
+</svg>

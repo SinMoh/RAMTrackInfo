@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 651 131">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #737373;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #737373;
+        font-family: CachetStd-Book, Cachet Std;
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 40px;
+      }
+
+      .cls-3 {
+        fill: #c22034;
+        font-family: CachetStd-Medium, Cachet Std;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <g id="FORM_Username" data-name="FORM Username" transform="translate(-216 -734)">
+    <line id="Form_Line" data-name="Form Line" class="cls-1" x2="650" transform="translate(217 864)"/>
+    <text id="johndoe_email.com" data-name="johndoe@email.com" class="cls-2" transform="translate(217 832)"><tspan x="0" y="0">johndoe@email.com</tspan></text>
+    <text id="NOM_D_UTILISATEUR" data-name="NOM D’UTILISATEUR" class="cls-3" transform="translate(217 762)"><tspan x="0" y="0">NOM D’UTILISATEUR</tspan></text>
+  </g>
+</svg>

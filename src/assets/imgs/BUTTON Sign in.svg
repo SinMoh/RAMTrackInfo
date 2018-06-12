@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 530.071 130">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c22034;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 40px;
+        font-family: CachetStd-Bold, Cachet Std;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        filter: url(#Button_Shape);
+      }
+    </style>
+    <filter id="Button_Shape" x="0" y="0" width="530.071" height="130" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="BUTTON_Sign_in" data-name="BUTTON Sign in" transform="translate(-366 -1348)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 366, 1348)">
+      <path id="Button_Shape-2" data-name="Button Shape" class="cls-1" d="M51.028,0H449.044c28.182,0,51.028,22.386,51.028,50s-22.846,50-51.028,50H51.028C22.846,100,0,77.614,0,50S22.846,0,51.028,0Z" transform="translate(10 10)"/>
+    </g>
+    <text id="CONNEXION" class="cls-2" transform="translate(626.069 1422)"><tspan x="-113" y="0">CONNEXION</tspan></text>
+  </g>
+</svg>
