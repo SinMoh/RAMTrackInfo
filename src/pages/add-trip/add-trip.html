@@ -15,22 +15,24 @@
 
 <ion-content class="background" padding>
 
+  <form (ngSubmit)="NAVTO_FlightInfo()">
   <div class="INPUTBox">
 
     <label class="Label">Numéro de réservation</label>
-    <input type="text" class="INPUTText">
+    <input type="text" class="INPUTText" [(ngModel)]="num_res" name="num_res">
 
   </div>
 
   <div class="INPUTBox">
 
     <label class="Label">Nom de famille</label>
-    <input type="text" class="INPUTText">
+    <input type="text" class="INPUTText" [(ngModel)]="nom" name="nom">
 
   </div>
 
-  <button class="BUTTON_AddTrip" (click)="NAVTO_FlightInfo()">Ajouter le voyage</button>
+  <button class="BUTTON_AddTrip" type="submit">Ajouter le voyage</button>
 
+</form>
 <p>Pour ajouter un voyage, il suffit d’entrer votre référence de réservation, votre nom et prénom. La référence de réservation est un code de 6 caractères disponible sur votre confirmation de réservation ou sur votre billet électronique.</p>
 
 </ion-content>
